@@ -94,15 +94,4 @@ npx playwright show-report
 - Trace: captured on first retry
 - Only the `chromium` project is currently active; Firefox, WebKit, and mobile viewport projects are scaffolded but commented out in `playwright.config.ts`.
 
-## Roadmap / Possible Improvements
 
-- [ ] Add `npm` scripts (`test`, `test:ui`, `report`) to `package.json` — currently empty
-- [ ] Add a `.env` file + `dotenv` for credentials instead of hardcoded login values
-- [ ] Enable cross-browser runs (Firefox, WebKit)
-- [ ] Add a `BasePage` class for shared page behavior
-- [ ] Add a GitHub Actions CI workflow to run tests on push/PR
-- [ ] Add API-level setup (via `APIRequestContext`) as an alternative to UI-based `auth.setup.ts`
-
-## License
-
-ISC
